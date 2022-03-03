@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-styles {
+    @apply border-2 rounded-full h-14 w-96 p-3 mr-2 outline-none;
+}
+
+.btn-styles {
+    @apply border-none rounded-full w-44 h-14 bg-blue-primary text-white font-bold shadow-lg shadow-blue-primary;
+}
+
+.icon-styles {
+    @apply w-10 h-10 p-1 border-2 border-gray-color rounded-full  hover:cursor-pointer fill-blue-primary;
+}
+
